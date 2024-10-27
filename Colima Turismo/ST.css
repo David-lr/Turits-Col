@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    color: #333;
+}
+
+header {
+    background-color:firebrick;
+    padding: 2.5em;
+    text-align: right;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.attractions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.attraction {
+    background-color:cornsilk;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.attraction img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2c8f6b;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color:firebrick;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.destination-detail {
+    text-align: center;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.destination-detail img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.destination-detail p {
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: #555;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 3em;
+    padding: 0.5em 1em;
+    background-color:maroon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.back-button:hover {
+    background-color:darkred;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.5em 1.5em;
+    background-color: #2c8f6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none; 
+    outline: none; 
+}
+
+.back-button:hover {
+    background-color: #1f6f52;
+}
+
+.back-button:focus {
+    outline: none;
+    border: none;
+}
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    width: 110px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+.location-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4285F4;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.location-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
